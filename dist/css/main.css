@@ -4,11 +4,64 @@
   box-sizing: border-box;
 }
 
+.component {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(213, 19%, 18%);
+  padding: 20px;
+  border-radius: 10px;
+}
+.component .circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsla(216, 12%, 54%, 0.1);
+}
+.component .circle img {
+  width: 8px;
+  align-self: center;
+}
+.component h1 {
+  padding: 15px 0 10px 0;
+  font-weight: 700;
+  font-size: 25px;
+  color: hsl(0, 0%, 100%);
+}
+.component p {
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+}
+.component .ratings {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.component .ratings .circle {
+  color: hsl(217, 12%, 63%);
+  font-size: 12px;
+}
+.component__btn {
+  width: 100%;
+  padding: 10px 30px;
+  border: 1px solid hsl(25, 97%, 53%);
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  outline: none;
+}
+
 body {
   font-family: "Overpass", sans-serif;
   font-size: 15px;
-}
-
-h1 {
-  font-weight: 700;
+  max-width: 375px;
+  background-color: hsl(216, 12%, 8%);
 }/*# sourceMappingURL=main.css.map */

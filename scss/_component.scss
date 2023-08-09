@@ -1,3 +1,65 @@
-// .component {
+.component {
+    // width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
-// }
+    background-color: $neutral-dark-blue;
+    padding: 20px;
+    border-radius: 10px;;
+
+    .circle {
+        // outline: 1px solid red;
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        padding: 5px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: hsla(216, 12%, 54%, 0.1);
+
+        img {
+            width: 8px;
+            align-self: center;
+        }
+    }
+
+    h1 {
+        padding: 15px 0 10px 0;
+        font-weight: 700;
+        font-size:25px;
+        color: $neutral-white;
+    }
+
+    p {
+        font-size: 15px;
+        color: $neutral-light-grey;
+    }
+
+    .ratings {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+
+        .circle {
+            color: $neutral-light-grey;
+            font-size: 12px;
+        }
+    }
+
+    &__btn {
+        width: 100%;
+        padding: 10px 30px;
+        border: 1px solid $primary-orange;
+        background-color: $primary-orange;
+        color: $neutral-white;
+        border-radius: 20px;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 1px;;
+        outline: none;
+    }
+}
