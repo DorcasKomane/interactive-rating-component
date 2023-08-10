@@ -1,11 +1,11 @@
-const ratingBtn = document.querySelector('.rating');
+// const ratingBtns = document.querySelectorAll('.rating');
 
-ratingBtn.addEventListener('click', () => {
-    ratingBtn.classList.add('active');
-    const ratingValue = ratingBtn.innerText;
+// ratingBtns.addEventListener('click', () => {
+//     ratingBtns.classList.add('active');
+//     const ratingValue = ratingBtns.innerText;
 
-    console.log(ratingValue);
-})
+//     console.log(ratingValue);
+// })
 
 // function getRating(){
 //     const ratingValue = value.innerHTML;
