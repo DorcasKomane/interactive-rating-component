@@ -44,23 +44,26 @@
   justify-content: space-between;
   padding: 20px 0;
 }
-.component .ratings .circle {
+.component .ratings input[type=radio] {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+.component .ratings label {
+  display: inline-table;
+  vertical-align: center;
+  text-align: center;
+  cursor: pointer;
+  background-color: hsla(216, 12%, 54%, 0.1);
   color: hsl(217, 12%, 63%);
-  font-size: 14px;
-  border: none;
-  outline: none;
-  padding: 25px;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  padding: 10px 15px;
+  transition: all 0.3s ease-out;
 }
-.component .ratings .circle:hover {
-  background-color: hsl(25, 97%, 53%);
-  color: hsl(0, 0%, 100%);
-  transition: all 0.3s ease;
-}
-.component .ratings .circle:active {
+.component .ratings input[type=radio]:checked + label {
   background-color: hsl(216, 12%, 54%);
-}
-.component .ratings .rating {
-  flex-shrink: 1;
 }
 .component__btn {
   width: 100%;
