@@ -81,10 +81,9 @@ const proudOfThisFunc = () => {
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Sass in 2 hours - by freeCodeCamp](https://www.youtube.com/watch?v=_a5j7KoflTs&t=6243s) - This tutorial got me started with Sass. It provided enough information for me to use Sass for the first time.
+- [Radio button without the dot](https://codepen.io/jacobberglund/pen/mdPEza) - This codepen helped me style the radio buttons for ratings, and use them without the circle/dot.
+- [How to get value of selected radio button using JavaScript](https://www.geeksforgeeks.org/how-to-get-value-of-selected-radio-button-using-javascript/) - This codepen helped me style the radio buttons for ratings, and use them without the circle/dot.
 
 ## Author
 
