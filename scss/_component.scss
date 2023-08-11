@@ -7,7 +7,7 @@
 
     background-color: $neutral-dark-blue;
     padding: 20px;
-    border-radius: 10px;;
+    border-radius: 10px;
 
     .circle {
         // outline: 1px solid red;
@@ -45,28 +45,6 @@
         justify-content: space-between;
         padding: 20px 0;
 
-        // .circle {
-        //     color: $neutral-light-grey;
-        //     font-size: 14px;
-        //     border: none;
-        //     outline: none;
-        //     padding: 25px;
-
-        //     &:hover {
-        //         background-color: $primary-orange;
-        //         color: $neutral-white;
-        //         transition: all 0.3s ease;
-        //     }
-
-        //     &:active {
-        //         background-color: $neutral-medium-grey;
-        //     }
-        // }
-
-        // .rating {
-        //     flex-shrink: 1;
-        // }
-
         input[type='radio'] {
             visibility: hidden;
             height: 0;
@@ -86,8 +64,14 @@
             border-radius: 100%;
             padding: 10px 15px;
             transition: all .3s ease-out;
-
         }
+
+        label:hover {
+            background-color: $primary-orange;
+            color: $neutral-white;
+            transition: all 0.3s ease;
+        }
+
         input[type='radio']:checked + label{
             background-color: $neutral-medium-grey;
         }
