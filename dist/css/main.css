@@ -34,10 +34,21 @@
   font-size: 25px;
   color: hsl(0, 0%, 100%);
 }
+@media screen and (max-width: 375px) {
+  .component h1 {
+    font-size: 18px;
+  }
+}
 .component p {
   font-weight: 400;
   font-size: 15px;
   color: hsl(217, 12%, 63%);
+}
+@media screen and (max-width: 375px) {
+  .component p {
+    font-size: 13px;
+    width: 100%;
+  }
 }
 .component .ratings {
   display: flex;
@@ -61,6 +72,12 @@
   border-radius: 100%;
   padding: 10px 15px;
   transition: all 0.3s ease-out;
+}
+@media screen and (in-width: 601px) {
+  .component .ratings label {
+    padding: 15px 20px;
+    font-size: 15px;
+  }
 }
 .component .ratings label:hover {
   background-color: hsl(25, 97%, 53%);
@@ -109,7 +126,7 @@
   align-items: center;
 }
 .thankyou__thankyou-content img {
-  width: 150px;
+  max-width: 150px;
   margin: 10px 0 25px 0;
 }
 .thankyou__thankyou-content .ratingText {
