@@ -14,9 +14,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -56,34 +53,24 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+- I learned a new technology (Sass), and was able to implement it in this project. I covered the following topics:
+    - variables
+    - mixins
+    - functions
+    - partials
+- How to use an HTML element (in this case, radio buttons), to capture user choices.
+- I also learned how to grab the user choice with JavaScript and display it in the DOM. 
 
 ### Continued development
 
-- This was my first time working with Sass, and I would like to use it in more projects to cement my understanding of this technology.
+- This was my first time working with Sass, and I would like to use it in more projects to cement my understanding of the technology.
 - I would like to work on more interactive projects to improve my JavaScript skills.
 
 ### Useful resources
 
 - [Sass in 2 hours - by freeCodeCamp](https://www.youtube.com/watch?v=_a5j7KoflTs&t=6243s) - This tutorial got me started with Sass. It provided enough information for me to use Sass for the first time.
 - [Radio button without the dot](https://codepen.io/jacobberglund/pen/mdPEza) - This codepen helped me style the radio buttons for ratings, and use them without the circle/dot.
-- [How to get value of selected radio button using JavaScript](https://www.geeksforgeeks.org/how-to-get-value-of-selected-radio-button-using-javascript/) - This codepen helped me style the radio buttons for ratings, and use them without the circle/dot.
+- [How to get value of selected radio button using JavaScript](https://www.geeksforgeeks.org/how-to-get-value-of-selected-radio-button-using-javascript/) - This tutorial helped me with adding functionality to the component.
 
 ## Author
 
@@ -91,9 +78,3 @@ const proudOfThisFunc = () => {
 - Frontend Mentor - [@DorcasKomane](https://www.frontendmentor.io/profile/DorcasKomane)
 - Twitter - [@DorcasInTech](https://www.twitter.com/DorcasInTech)
 
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
