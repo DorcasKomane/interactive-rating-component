@@ -12,7 +12,8 @@
 <body>
     <div class="main__container">
         <div class="component">
-            <!-- <div class="circle">
+            <div class="ratingView">
+                <div class="circle">
                 <img src="/dist/images/icon-star.svg" alt="icon-star">
             </div>
             <h1>How did we do?</h1>
@@ -43,12 +44,13 @@
                     <label for="5">5</label>
                 </div>
             </div>
-            <button type="button" class="component__btn">submit</button> -->
+            <button type="button" class="component__btn" onclick="displayRating()">submit</button>
+            </div>
         </div>
         <div class="thankyou">
             <div class="thankyou__thankyou-content">
                 <img class="thankyou__img" src="/dist/images/illustration-thank-you.svg" alt="icon-star">
-                <p class="ratingText">You selected <span class="ratingValue"></span> out of 5</p>
+                <p class="ratingText">You selected <span id="ratingValue"></span> out of 5</p>
                 <h1>Thank you!</h1>
                 <p class="thankyouText">We appreciate you taking the time to give a rating.
                     If you ever need more suport, don't hesitate to get in touch!

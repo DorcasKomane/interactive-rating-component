@@ -1,26 +1,17 @@
-// const ratingBtns = document.querySelectorAll('.rating');
+function displayRating(){
+    const ratingView = document.querySelector('.ratingView');
+    const thankyou = document.querySelector('.thankyou');
 
-// ratingBtns.addEventListener('click', () => {
-//     ratingBtns.classList.add('active');
-//     const ratingValue = ratingBtns.innerText;
-
-//     console.log(ratingValue);
-// })
-
-// function getRating(){
-//     const ratingValue = value.innerHTML;
-
-//     console.log(ratingValue);
-// }
-
-// getRating();
+    ratingView.style.display = 'none';
+    thankyou.style.display = 'block';
 
 
-//***PSEUDO CODE***
+    const values = document.getElementsByName('rating');
 
-//set button to 'active' state when user clicks on it
+    for(let i = 0; i < values.length; i ++){
+        if(values[i].checked){
+            document.getElementById('ratingValue').innerHTML = values[i].value;
+        }
+    }
 
-//when user clicks SUBMIT button:
-//grab value of active rating button
-//add value to thank-you-state text
-//display thank-you-state screen 
+}
