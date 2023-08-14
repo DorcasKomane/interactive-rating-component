@@ -45,6 +45,7 @@ Users should be able to:
 - [Sass](https://sass-lang.com/) - CSS extension language
 - Flexbox
 - Grid
+- JavaScript
 
 ### What I learned
 

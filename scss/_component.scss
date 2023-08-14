@@ -10,7 +10,6 @@
     border-radius: 10px;
 
     .circle {
-        // outline: 1px solid red;
         width: 30px;
         height: 30px;
         border-radius: 100%;
@@ -54,8 +53,6 @@
         grid-template-columns: repeat(5, 1fr);
         gap: 10px;
         padding: 10px 0 20px 0;
-
-        outline: 1 px solid red;
 
         input[type='radio'] {
             visibility: hidden;
