@@ -44,6 +44,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - [Sass](https://sass-lang.com/) - CSS extension language
 - Flexbox
+- Grid
 
 ### What I learned
 
