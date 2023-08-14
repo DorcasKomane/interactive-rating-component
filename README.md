@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/DorcasKomane/interactive-rating-component](https://github.com/DorcasKomane/interactive-rating-component)
-- Live Site URL: [https://fe-interactive-rating.netlify.app/](https://fe-interactive-rating.netlify.app/)
+- Live Site URL: [https://fe-interactive-rating-comp.netlify.app/](https://fe-interactive-rating-comp.netlify.app/)
 
 ## My process
 
